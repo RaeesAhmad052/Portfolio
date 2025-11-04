@@ -179,7 +179,8 @@
       initIsotope = new Isotope(isotopeItem.querySelector('.isotope-container'), {
         itemSelector: '.isotope-item',
         layoutMode: layout,
-        filter: filter,
+        filter: '.filter-alignment',
+        //filter: filter,
         sortBy: sort
       });
     });
